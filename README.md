@@ -131,9 +131,9 @@ Change the API key from your own by getting it from developer portal in [Discord
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Add more functionalities
-- [] Publishing it in a cloud server
-- [] Quality of life changes
+- [ ] Add more functionalities
+- [ ] Publishing it in a cloud server
+- [ ] Quality of life changes
 
 
 See the [open issues](https://github.com/acm-iem/Dseized-Bot/issues) for a full list of proposed features (and known issues).
