@@ -1,5 +1,5 @@
 # Dseized Bot
-<img src="https://discord.bots.gg/img/logo_transparent.png" align="right" width ="240px "/>
+<img src="https://user-images.githubusercontent.com/82254406/135747901-452f602f-2ee6-42b9-b1e0-63f0fe15985f.png" align="right" width ="240px "/>
 
 The Dseized Bot is a Discord Bot which performs various operations in a particular discord server in which it is imported. <br>
 This bot has many features such as playing songs in multiple servers and making a queue for songs.[Discord.py](https://pypi.org/project/discord.py/)
