@@ -25,6 +25,6 @@ Make sure you have [**Python**](https://python.org) installed on your computer b
    * **Extract** the zip file 
    
 
-
+Change the API key from your own by getting it from developer portal in [Discord](https://discord.com/developers/applications)
 
 

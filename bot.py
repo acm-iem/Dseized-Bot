@@ -18,6 +18,7 @@ from discord.ext.commands import check
 TokenFile = open("./data/Token.txt", "r") # Make sure to paste the token in the txt file
 TOKEN = TokenFile.read() 
 
+#Get the API keys from the developer.discord.com 
 OWNERID = 254324351296339968
 
 # Define "bot"
