@@ -212,7 +212,7 @@ class Music(commands.Cog):
 
         return player
 
-    @commands.command(name='kutikuti', aliases=['join'])
+    @commands.command(name='connect', aliases=['join'])
     async def connect_(self, ctx):
         try:
             channel = ctx.author.voice.channel
@@ -236,14 +236,14 @@ class Music(commands.Cog):
 
         await ctx.send(f'Connected to: **{channel}**', )
 
-    @commands.command(name='nandi', aliases=['sing'])
+    @commands.command(name='play', aliases=['sing'])
     async def play_(self, ctx, *, search: str):
         await ctx.trigger_typing()
 
         vc = ctx.voice_client
 
         if ctx.author.voice is None:
-            await ctx.send("VC dhok nandi")
+            await ctx.send("You are not connected to a voice channel")
 
         else:
             await ctx.invoke(self.connect_)
@@ -363,7 +363,7 @@ class Music(commands.Cog):
         player.volume = vol / 100
         await ctx.send(f'**`{ctx.author}`**: Set the volume to **{vol}%**')
 
-    @commands.command(name='naru', aliases=['leave'])
+    @commands.command(name='disconnect', aliases=['leave'])
     async def stop_(self, ctx):
         """Stop the currently playing song and destroy the player.
         !Warning!
