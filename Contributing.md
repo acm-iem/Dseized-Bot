@@ -24,7 +24,7 @@ If you spot a problem with the docs, [search if an issue already exists](https:/
 
 #### Solve an issue
 
-Scan through our [existing issues](https://github.com/github/docs/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/contributing/how-to-use-labels.md) for more information.
+Scan through our [existing issues](https://github.com/github/docs/issues) to find one that interests you. You can narrow down the search using `labels` as filters.
 
 
 #### Make changes locally
@@ -47,7 +47,7 @@ Scan through our [existing issues](https://github.com/github/docs/issues) to fin
 
 Commit the changes once you are happy with them. See [Atom's contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages) to know how to use emoji's for commit messages.
 
-Once you are ready with your changes, don't forget to [self review](/contributing/self-review.md) to quicken the review process :zap:.
+Once you are ready with your changes, don't forget to self review to quicken the review process :zap:.
 
 ### Pull Request
 
