@@ -125,8 +125,7 @@ Change the API key from your own by getting it from developer portal in [Discord
    * [Readme file](https://github.com/acm-iem/Dseized-Bot/blob/master/README.md) - This file contains the essential details of the project along with mentioned prerequisites required to run this Discord Bot on your device.
    
   
-   <br>
-### Setting up the bot and running it
+ ###   Setting up the bot and running it
 
 1. Clone the repo
    ```sh
@@ -155,7 +154,7 @@ See the [open issues](https://github.com/acm-iem/Dseized-Bot/issues) for a full 
 <!-- CONTRIBUTING -->
 ## Contributions
 
-### **For contributing to this project,kindly read rules mentioned in [Contributing.md](https://github.com/acm-iem/Dseized-Bot/blob/master/README.md) file.**<br>
+### **For contributing to this project, kindly read rules mentioned in [Contributing.md](https://github.com/acm-iem/Dseized-Bot/blob/master/README.md) file.**<br>
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
