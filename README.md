@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/acm-iem/Dseized-Bot">
-    <img src="https://github.com/acm-iem/Dseized-Bot/blob/master/data/Deseized%20Logo%20V2%20Transparent-01.png" alt="Logo">
+    <img src="https://github.com/acm-iem/Dseized-Bot/blob/master/data/Dseized_Logo.gif" alt="Logo">
   </a>
 
   <h3 align="center">Dseized Bot</h3>
