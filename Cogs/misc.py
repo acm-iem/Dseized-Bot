@@ -25,22 +25,30 @@ class misc(commands.Cog):
 
     @commands.command()
     async def sh(self, ctx):
+        await ctx.channel.purge(limit=1)
         await ctx.send(f'sheeeeeeeesh :cold_face:')
 
     #@client.command()
-    @commands.command()
+    @commands.command(aliases = ['jdh'])
     async def jadisconnectho(self, ctx : commands.Context, user : discord.Member = None):
+        if user==None:
+            user=ctx.author
         member = ctx.author if not user else user
-        roles = [role for role in member.roles]
-        embed = discord.Embed(colour=member.colour, timestamp=ctx.message.created_at)
-        embed.set_author(name=f"Gracefully Disconnected : {member}")
-        embed.set_thumbnail(url=member.avatar_url)
-        embed.set_footer(text=f"Deemed Undeserving By {ctx.author}", icon_url=ctx.author.avatar_url)
-        embed.add_field(name="Undeserving Idiot :", value=member.display_name, inline="False")
-        embed.add_field(name="Disgracing the Role :", value=member.top_role.mention, inline="False")
-        embed.add_field(name="Important:", value=member.bot, inline="True")
-        await ctx.send(embed=embed)
-        await user.move_to(None)
+        if user.voice is None:
+            await ctx.send("Andha saala")
+        elif ctx.author.voice is None:
+            await ctx.send("Tor baap ke emon kyalabo na shuor er bachha")
+        else:
+            roles = [role for role in member.roles]
+            embed = discord.Embed(colour=member.colour, timestamp=ctx.message.created_at)
+            embed.set_author(name=f"Gracefully Disconnected : {member}")
+            embed.set_thumbnail(url=member.avatar_url)
+            embed.set_footer(text=f"Deemed Undeserving By {ctx.author}", icon_url=ctx.author.avatar_url)
+            embed.add_field(name="Undeserving Idiot :", value=member.display_name, inline="False")
+            embed.add_field(name="Disgracing the Role :", value=member.top_role.mention, inline="False")
+            embed.add_field(name="Unimportant user:", value=member, inline="False")
+            await ctx.send(embed=embed)
+            await user.move_to(None)
     
 
     @commands.command()
@@ -66,7 +74,7 @@ class misc(commands.Cog):
         await ctx.channel.purge(limit=amount+1)
 
     @commands.command(aliases = ['as'])
-    async def animesearch(self, ctx, an: str, ):
+    async def animesearch(self, ctx, *, an: str, ):
         start = time.time()
         search = AnimeSearch(f"{an}") # Search for "cowboy bebop"
         id_ = search.results[0].mal_id
@@ -99,7 +107,7 @@ class misc(commands.Cog):
         await ctx.send(f"`Time taken: {round(end-start, 2)} seconds`")
 
     @commands.command(aliases = ['ms'])
-    async def mangasearch(self, ctx, an: str, ):
+    async def mangasearch(self, ctx, *, an: str, ):
         start = time.time()
         search = MangaSearch(f"{an}") # Search for "cowboy bebop"
         id_ = search.results[0].mal_id
