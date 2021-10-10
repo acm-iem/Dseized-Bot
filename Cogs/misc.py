@@ -24,8 +24,24 @@ class misc(commands.Cog):
         await ctx.send(f'https://discord.com/api/oauth2/authorize?client_id=893777032423571457&permissions=0&scope=bot')
 
     @commands.command()
-    async def sheesh(self, ctx):
+    async def sh(self, ctx):
         await ctx.send(f'sheeeeeeeesh :cold_face:')
+
+    #@client.command()
+    @commands.command()
+    async def jadisconnectho(self, ctx : commands.Context, user : discord.Member = None):
+        member = ctx.author if not user else user
+        roles = [role for role in member.roles]
+        embed = discord.Embed(colour=member.colour, timestamp=ctx.message.created_at)
+        embed.set_author(name=f"Gracefully Disconnected : {member}")
+        embed.set_thumbnail(url=member.avatar_url)
+        embed.set_footer(text=f"Deemed Undeserving By {ctx.author}", icon_url=ctx.author.avatar_url)
+        embed.add_field(name="Undeserving Idiot :", value=member.display_name, inline="False")
+        embed.add_field(name="Disgracing the Role :", value=member.top_role.mention, inline="False")
+        embed.add_field(name="Important:", value=member.bot, inline="True")
+        await ctx.send(embed=embed)
+        await user.move_to(None)
+    
 
     @commands.command()
     async def userinfo(self, ctx, member: discord.Member = None):
