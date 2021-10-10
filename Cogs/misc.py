@@ -24,6 +24,10 @@ class misc(commands.Cog):
         await ctx.send(f'https://discord.com/api/oauth2/authorize?client_id=893777032423571457&permissions=0&scope=bot')
 
     @commands.command()
+    async def sheesh(self, ctx):
+        await ctx.send(f'sheeeeeeeesh :cold_face:')
+
+    @commands.command()
     async def userinfo(self, ctx, member: discord.Member = None):
         member = ctx.author if not member else member
         roles = [role for role in member.roles]
