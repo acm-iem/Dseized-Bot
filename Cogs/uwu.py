@@ -11,11 +11,11 @@ class uwu(commands.Cog):
     async def uwu(self, ctx, say: str):
         await ctx.channel.purge(limit=1)
         flags = uwuify.SMILEY | uwuify.YU
-        print(f"{say}")
+        #print(f"{say}")
         conv = uwuify.uwu(f"{say}", flags=flags)
         await ctx.send(conv)
     @commands.command()
-    async def meme(self, ctx, temp: str, top: str, bot: str)
+    async def meme(self, ctx, temp: str, top: str, bot: str):
         url = "https://ronreiter-meme-generator.p.rapidapi.com/meme"
         querystring = {"top":top,"bottom":bot,"meme":temp,"font_size":"50","font":"Impact"}
 
