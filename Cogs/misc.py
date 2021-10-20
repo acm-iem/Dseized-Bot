@@ -29,7 +29,11 @@ class misc(commands.Cog):
         
     @commands.command()
     async def a23(self, ctx):
-        await ctx.send(f'I'm a  gamer , music lover and a soccer addict( CR7 OP)')
+        await ctx.send(f'Im a  gamer , music lover and a soccer addict( CR7 OP)')
+                       
+    @commands.command()
+    async def dub(self, ctx):
+        await ctx.send(f'Please keep ur overflowing happiness with yourself :)')
 
     #@client.command()
     @commands.command()
