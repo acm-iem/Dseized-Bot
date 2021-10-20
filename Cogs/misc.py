@@ -27,6 +27,10 @@ class misc(commands.Cog):
     async def sh(self, ctx):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'sheeeeeeeesh :cold_face:')
+        
+    @commands.command()
+    async def a23(self, ctx):
+        await ctx.send(f'I'm a  gamer , music lover and a soccer addict( CR7 OP)')
 
     #@client.command()
     @commands.command(aliases = ['jdh'])
