@@ -27,18 +27,11 @@ class misc(commands.Cog):
     async def sh(self, ctx):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'sheeeeeeeesh :cold_face:')
-        
+
     @commands.command()
-    async def a23(self, ctx):
-        await ctx.send(f'Im a  gamer , music lover and a soccer addict( CR7 OP)')
-                       
-    @commands.command()
-    async def dub(self, ctx):
-        await ctx.send(f'Please keep ur overflowing happiness with yourself :)')
-        
-    @commands.command()
-    async def naru(self, ctx):
-        await ctx.send(f'The only photo where my naru ( @nairwita.nc ) and I look beautiful simultaneously.\n In rest of the pics , my handsomeness was varying inversely as her beauty.\n Okay , so maybe it was our last meet. Because in class xii the batches at fiitjee will be reshuffled.\n The one thing that I always wanted to tell you dear is that , " Ill never forget you . " Ill always love you dear like I do now. Maybe we will not meet again or maybe we will do , just remember that your importance in my life will never fade away.\n You know what gorugiri and narugiri is like charger and wifi. Without one the other is incomplete .... Peace )')
+    async def hi(self, ctx):
+        await ctx.channel.purge(limit=1)
+        await ctx.send(f'Hello')
 
     #@client.command()
     @commands.command(aliases = ['jdh'])
