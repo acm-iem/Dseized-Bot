@@ -38,6 +38,16 @@ class misc(commands.Cog):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'Welcome to the server')
 
+    @commands.command()
+    async def bye(self, ctx):
+        await ctx.channel.purge(limit=1)
+        await ctx.send(f'adios amigo')
+    
+    @commands.command()
+    async def simp(self, ctx):
+        await ctx.channel.purge(limit=1)
+        await ctx.send(f'stop simping')
+
     #@client.command()
     @commands.command(aliases = ['jdh'])
     async def jadisconnectho(self, ctx : commands.Context, user : discord.Member = None):
