@@ -32,6 +32,11 @@ class misc(commands.Cog):
     async def hi(self, ctx):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'Hello')
+    
+    @commands.command()
+    async def wlc(self, ctx):
+        await ctx.channel.purge(limit=1)
+        await ctx.send(f'Welcome to the server')
 
     #@client.command()
     @commands.command(aliases = ['jdh'])
