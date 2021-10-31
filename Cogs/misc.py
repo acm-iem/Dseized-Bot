@@ -29,6 +29,11 @@ class misc(commands.Cog):
         await ctx.send(f'Delete korish na pls')
 
     @commands.command()
+    async def ok(self, ctx):
+        await ctx.channel.purge(limit=1)
+        await ctx.send(f'Umm okay')
+
+    @commands.command()
     async def hi(self, ctx):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'Hello')
