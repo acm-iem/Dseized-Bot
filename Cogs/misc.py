@@ -27,6 +27,11 @@ class misc(commands.Cog):
     async def hi(self, ctx):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'Hello')
+
+    @commands.command()
+    async def obom(self, ctx):
+        await ctx.channel.purge(limit=1)
+        await ctx.send(f'Play Sohom.mp4')
     
     @commands.command()
     async def wlc(self, ctx):
