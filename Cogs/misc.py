@@ -50,9 +50,9 @@ class misc(commands.Cog):
             user=ctx.author
         member = ctx.author if not user else user
         if user.voice is None:
-            await ctx.send("Andha saala")
+            await ctx.send("The user is not in the vc.")
         elif ctx.author.voice is None:
-            await ctx.send("Tor baap ke emon kyalabo na shuor er bachha")
+            await ctx.send("Join the vc.")
         else:
             roles = [role for role in member.roles]
             embed = discord.Embed(colour=member.colour, timestamp=ctx.message.created_at)
