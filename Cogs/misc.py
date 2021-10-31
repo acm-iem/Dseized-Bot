@@ -24,11 +24,6 @@ class misc(commands.Cog):
         await ctx.send(f'https://discord.com/api/oauth2/authorize?client_id=893777032423571457&permissions=0&scope=bot')
 
     @commands.command()
-    async def sh(self, ctx):
-        await ctx.channel.purge(limit=1)
-        await ctx.send(f'sheeeeeeeesh :cold_face:')
-
-    @commands.command()
     async def hi(self, ctx):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'Hello')
@@ -55,9 +50,9 @@ class misc(commands.Cog):
             user=ctx.author
         member = ctx.author if not user else user
         if user.voice is None:
-            await ctx.send("Andha saala")
+            await ctx.send("The user is not in the vc.")
         elif ctx.author.voice is None:
-            await ctx.send("Tor baap ke emon kyalabo na shuor er bachha")
+            await ctx.send("Join the vc.")
         else:
             roles = [role for role in member.roles]
             embed = discord.Embed(colour=member.colour, timestamp=ctx.message.created_at)
