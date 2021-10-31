@@ -44,8 +44,8 @@ class misc(commands.Cog):
         await ctx.send(f'stop simping')
 
     #@client.command()
-    @commands.command(aliases = ['jdh'])
-    async def jadisconnectho(self, ctx : commands.Context, user : discord.Member = None):
+    @commands.command(aliases = ['dc'])
+    async def disconnectme(self, ctx : commands.Context, user : discord.Member = None):
         if user==None:
             user=ctx.author
         member = ctx.author if not user else user
