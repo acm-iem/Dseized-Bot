@@ -24,11 +24,6 @@ class misc(commands.Cog):
         await ctx.send(f'https://discord.com/api/oauth2/authorize?client_id=893777032423571457&permissions=0&scope=bot')
 
     @commands.command()
-    async def sh(self, ctx):
-        await ctx.channel.purge(limit=1)
-        await ctx.send(f'sheeeeeeeesh :cold_face:')
-
-    @commands.command()
     async def hi(self, ctx):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'Hello')
