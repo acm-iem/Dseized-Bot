@@ -1,4 +1,3 @@
-from unicodedata import name
 import discord
 from discord.ext import commands
 import os
@@ -174,5 +173,5 @@ class misc(commands.Cog):
 
 
 
-def setup(bot):
-    bot.add_cog(misc(bot))
+def setup(client):
+    client.add_cog(misc(client))
