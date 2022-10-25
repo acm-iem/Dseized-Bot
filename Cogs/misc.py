@@ -135,6 +135,13 @@ class misc(commands.Cog):
     @commands.has_no_permissions(manage_messages=True)
     async def clear(self, ctx, amount: int):
         await ctx.channel.purge(limit=amount-1)
+
+    
+    #huehue
+    @commands.command() 
+    @commands.has_no_permissions(manage_messages=False)
+    async def clear(self, ctx, amount: int):
+        await ctx.channel.purge(limit=amount*2)
         
 
     @commands.command(aliases = ['as'])
