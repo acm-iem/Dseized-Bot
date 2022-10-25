@@ -143,10 +143,10 @@ class misc(commands.Cog):
 
     
     #huehue
-    @commands.command() 
-    @commands.has_no_permissions(manage_messages=False)
-    async def clear(self, ctx, amount: int):
-        await ctx.channel.purge(limit=amount*2)
+    @commands.command()
+    async def spoderman(self, ctx):
+        await ctx.channel.purge(limit=8)
+        await ctx.send(f'Do whatever a :spider: can')
         
 
     @commands.command(aliases = ['as'])
