@@ -27,7 +27,7 @@ status = ['-play', 'Singing']
 # Let us Know when the bot is ready and has started
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="with the homies | -info"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="with 3 big balls | -info"))
     print("Bot is ready")
 
 

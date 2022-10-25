@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/acm-iem/Dseized-Bot">
-    <img src="https://github.com/acm-iem/Dseized-Bot/blob/master/data/Dseized_Logo.gif" alt="Logo">
+    <img src="https://github.com/s7arborne/Dseized-Bot/blob/master/data/Dseized_Logo.gif" alt="Logo">
   </a>
 
   <h3 align="center">Dseized Bot</h3>
@@ -21,14 +21,14 @@
   <p align="center">
     For all your bot needs !
     <br />
-    <a href="https://github.com/acm-iem/Dseized-Bot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/s7arborne/Dseized-Bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/acm-iem/Dseized-Bot">View Demo</a>
+    <a href="https://github.com/s7arborne/Dseized-Bot">View Demo</a>
     ·
-    <a href="https://github.com/acm-iem/Dseized-Bot/issues">Report Bug</a>
+    <a href="https://github.com/s7arborne/Dseized-Bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/acm-iem/Dseized-Bot/issues">Request Feature</a>
+    <a href="https://github.com/s7arborne/Dseized-Bot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -116,22 +116,11 @@ Change the API key from your own by getting it from developer portal in [Discord
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
- ##  Repository's sections:
-   ### **This repository is divided in 6 sub sections :** 
-   * [Cogs](https://github.com/acm-iem/Dseized-Bot/tree/master/Cogs) -This folder contains the extensions and some APIs which the bot uses to perform operations like music playing etc.
-   * [data folder](https://github.com/acm-iem/Dseized-Bot/tree/master/data) - This folder contains token text file which stores the data inputted by user while using bot commands.
-   * [bot.py](https://github.com/acm-iem/Dseized-Bot/blob/master/bot.py) - This .py file contains the code of Dseized bot which loads and unloads data using some extensions listed in      [Cogs](https://github.com/acm-iem/Dseized-Bot/tree/master/Cogs) folder.
-   * [Readme file](https://github.com/acm-iem/Dseized-Bot/blob/master/README.md) - This file contains the essential details of the project along with mentioned prerequisites required to run this Discord Bot on your device.
-   * [Contributing file](Contributing.md) - This file contains the rules and preworks in the form of *Documentation* which are essentials for contributing to this project.
-   * [License file](https://github.com/acm-iem/Dseized-Bot/blob/master/LICENSE) - This file contains the legal information such as copyright ownership of this project.
-   
-  
- ###   Setting up the bot and running it
+### Setting up the bot and running it
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/acm-iem/Dseized-Bot.git
+   git clone https://github.com/s7arborne/Dseized-Bot.git
    ```
 2. Enter your token to your generated BOT token in ./data/token.txt
 
@@ -142,12 +131,12 @@ Change the API key from your own by getting it from developer portal in [Discord
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add more functionalities
-- [ ] Publishing it in a cloud server
-- [ ] Quality of life changes
+- [] Add more functionalities
+- [] Publishing it in a cloud server
+- [] Quality of life changes
 
 
-See the [open issues](https://github.com/acm-iem/Dseized-Bot/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/s7arborne/Dseized-Bot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -156,7 +145,6 @@ See the [open issues](https://github.com/acm-iem/Dseized-Bot/issues) for a full 
 <!-- CONTRIBUTING -->
 ## Contributions
 
-### **For contributing to this project, kindly read rules mentioned in [Contributing.md](Contributing.md) file.**<br>
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -183,15 +171,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/acm-iem/Dseized-Bot.svg?style=for-the-badge
-[contributors-url]: https://github.com/acm-iem/Dseized-Bot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/acm-iem/Dseized-Bot.svg?style=for-the-badge
-[forks-url]: https://github.com/acm-iem/Dseized-Bot/network/members
-[stars-shield]: https://img.shields.io/github/stars/acm-iem/Dseized-Bot.svg?style=for-the-badge
-[stars-url]: https://github.com/acm-iem/Dseized-Bot/stargazers
-[issues-shield]: https://img.shields.io/github/issues/acm-iem/Dseized-Bot.svg?style=for-the-badge
-[issues-url]: https://github.com/acm-iem/Dseized-Bot/issues
-[license-shield]: https://img.shields.io/github/license/acm-iem/Dseized-Bot.svg?style=for-the-badge
-[license-url]: https://github.com/acm-iem/Dseized-Bot/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/s7arborne/Dseized-Bot.svg?style=for-the-badge
+[contributors-url]: https://github.com/s7arborne/Dseized-Bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/s7arborne/Dseized-Bot.svg?style=for-the-badge
+[forks-url]: https://github.com/s7arborne/Dseized-Bot/network/members
+[stars-shield]: https://img.shields.io/github/stars/s7arborne/Dseized-Bot.svg?style=for-the-badge
+[stars-url]: https://github.com/s7arborne/Dseized-Bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/s7arborne/Dseized-Bot.svg?style=for-the-badge
+[issues-url]: https://github.com/s7arborne/Dseized-Bot/issues
+[license-shield]: https://img.shields.io/github/license/s7arborne/Dseized-Bot.svg?style=for-the-badge
+[license-url]: https://github.com/s7arborne/Dseized-Bot/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/company/acm-iem/
+[linkedin-url]: https://www.linkedin.com/in/therealsappy/
