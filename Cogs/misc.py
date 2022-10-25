@@ -130,6 +130,13 @@ class misc(commands.Cog):
     async def clear(self, ctx, amount: int):
         await ctx.channel.purge(limit=amount+1)
 
+        
+    @commands.command()
+    @commands.has_no_permissions(manage_messages=True)
+    async def clear(self, ctx, amount: int):
+        await ctx.channel.purge(limit=amount-1)
+        
+
     @commands.command(aliases = ['as'])
     async def animesearch(self, ctx, *, an: str, ):
         start = time.time()
