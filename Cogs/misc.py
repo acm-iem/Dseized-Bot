@@ -148,6 +148,12 @@ class misc(commands.Cog):
         await ctx.channel.purge(limit=8)
         await ctx.send(f'Do whatever a :spider: can')
         
+    #huehue2
+    @commands.command()
+    async def ironman(self, ctx):
+        await ctx.channel.purge(limit=8)
+        await ctx.send(f'You are Ironman')
+        
 
     @commands.command(aliases = ['as'])
     async def animesearch(self, ctx, *, an: str, ):
