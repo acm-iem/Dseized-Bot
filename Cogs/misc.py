@@ -47,6 +47,11 @@ class misc(commands.Cog):
         await ctx.channel.purge(limit=1)
         await ctx.send(f'https://tenor.com/view/cat-cute-cat-cat-cute-cats-adorable-gif-17561910')
 
+    @commands.command()
+    async def ranu(self, ctx):
+        await ctx.channel.purge(limit=1)
+        await ctx.send(f'https://tenor.com/view/ranu-mondal-i-forgot-it-gif-23421058')
+
 
     @commands.command()
     async def say(self, ctx,* , sy: str):
