@@ -68,7 +68,11 @@ async def deep(ctx):
 @client.command()
 async def jdg(ctx):
     await ctx.send(f'https://i.imgur.com/pL3Qpst.png')
-    
+
+@client.command()
+async def ohhh(ctx):
+    await ctx.send(f'https://i.imgur.com/60s2lIV.gifv')
+
 @client.command()
 async def sshchd(ctx):
     await ctx.send(f'`Shri Shri Hari CHD`')
