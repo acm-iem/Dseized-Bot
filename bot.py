@@ -60,6 +60,10 @@ async def info(ctx):
 @client.command()
 async def cringe(ctx):
     await ctx.send(f'`hello i am dedsot`')
+
+@client.command()
+async def deep(ctx):
+    await ctx.send(f'https://i.imgur.com/hz9qWte.png')
     
 @client.command()
 async def sshchd(ctx):
