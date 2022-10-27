@@ -57,6 +57,10 @@ async def move(ctx, *, channel : discord.VoiceChannel):
 async def info(ctx):
     await ctx.send(f'`-play\n-pause\n-resume\n-skip\n-stop\n-queue\n-userinfo\n-as anime\n-ms manga\n-invite`')
 
+@client.command()
+async def cringe(ctx):
+    await ctx.send(f'`hello i am dedsot`')
+
 # A simple and small ERROR handler
 @client.event 
 async def on_command_error(ctx,error):
