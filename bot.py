@@ -64,6 +64,10 @@ async def cringe(ctx):
 @client.command()
 async def sshchd(ctx):
     await ctx.send(f'`Shri Shri Hari CHD`')
+    
+@client.command()
+async def saul(ctx):
+    await ctx.send(f'https://tenor.com/view/saul-goodman-better-call-saul-saul-goodman3d-meme-breaking-bad-gif-24027228')
 
 # A simple and small ERROR handler
 @client.event 
