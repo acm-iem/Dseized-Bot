@@ -60,6 +60,10 @@ async def info(ctx):
 @client.command()
 async def cringe(ctx):
     await ctx.send(f'`hello i am dedsot`')
+    
+@client.command()
+async def sshchd(ctx):
+    await ctx.send(f'`Shri Shri Hari CHD`')
 
 # A simple and small ERROR handler
 @client.event 
