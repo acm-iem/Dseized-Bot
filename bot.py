@@ -69,6 +69,10 @@ async def sshchd(ctx):
 async def saul(ctx):
     await ctx.send(f'https://tenor.com/view/saul-goodman-better-call-saul-saul-goodman3d-meme-breaking-bad-gif-24027228')
 
+@client.command()
+async def witterded(ctx):
+    await ctx.send(f'https://media.tenor.com/YFH8r7l0IX0AAAAd/walter-white-falling.gif')
+
 # A simple and small ERROR handler
 @client.event 
 async def on_command_error(ctx,error):
