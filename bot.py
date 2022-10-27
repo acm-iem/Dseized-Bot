@@ -78,6 +78,10 @@ async def nice(ctx):
     await ctx.send(f'https://i.imgur.com/5zlliKp.gifv')
 
 @client.command()
+async def sussy(ctx):
+    await ctx.send(f'https://i.imgur.com/DCGITfw.gifv')
+
+@client.command()
 async def sshchd(ctx):
     await ctx.send(f'`Shri Shri Hari CHD`')
     
