@@ -64,6 +64,10 @@ async def cringe(ctx):
 @client.command()
 async def deep(ctx):
     await ctx.send(f'https://i.imgur.com/hz9qWte.png')
+
+@client.command()
+async def jdg(ctx):
+    await ctx.send(f'https://i.imgur.com/pL3Qpst.png')
     
 @client.command()
 async def sshchd(ctx):
