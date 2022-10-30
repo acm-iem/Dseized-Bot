@@ -159,6 +159,13 @@ class misc(commands.Cog):
     async def ironmanreturns(self, ctx):
         await ctx.channel.purge(limit=12)
         await ctx.send(f'We are Ironman')
+        await ctx.send(f'You are Ironman')
+        
+    #change
+    @commands.command()
+    async def chenj(self, ctx):
+        await ctx.channel.purge(limit=12)
+        await ctx.send(f'bodla noy bodol chai')
         
 
     @commands.command(aliases = ['as'])
