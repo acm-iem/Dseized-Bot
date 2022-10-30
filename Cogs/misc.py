@@ -165,6 +165,16 @@ class misc(commands.Cog):
         await ctx.channel.purge(limit=12)
         await ctx.send(f'We are Ironman')
         await ctx.send(f'You are Ironman')
+
+
+    #huehue2.1.1
+    #huehue2.1
+    @commands.command()
+    async def supermanmanreturns(self, ctx):
+        await ctx.channel.purge(limit=16)
+        await ctx.send(f'We are Superman')
+        await ctx.send(f'You are Superman')
+
         
     #change
     @commands.command()
